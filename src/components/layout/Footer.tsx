@@ -8,7 +8,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="text-xl font-bold text-primary">
-              VulnShield
+              VulnGuard
             </Link>
             <p className="mt-4 text-gray-600 max-w-md">
               Protecting your network with real-time vulnerability assessments and actionable insights.
@@ -45,7 +45,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t text-center text-gray-600">
-          <p>&copy; {new Date().getFullYear()} VulnShield. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} VulnGuard. All rights reserved.</p>
         </div>
       </div>
     </footer>
