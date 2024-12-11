@@ -33,7 +33,7 @@ export const Sidebar = () => {
       <div className="flex items-center justify-between p-4 border-b">
         {!collapsed && (
           <Link to="/" className="font-bold text-primary text-xl">
-            VulnShield
+            VulnGuard
           </Link>
         )}
         <Button
