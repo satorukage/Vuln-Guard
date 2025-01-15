@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Dashboard from "./pages/Dashboard";
 import { ScheduleScan } from "./components/dashboard/ScheduleScan";
 import Reports from "./pages/Reports";
+import Settings from "./pages/Settings";
 
 const queryClient = new QueryClient();
 
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/dashboard/schedule" element={<ScheduleScan />} />
           <Route path="/dashboard/reports" element={<Reports />} />
+          <Route path="/dashboard/settings" element={<Settings />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
