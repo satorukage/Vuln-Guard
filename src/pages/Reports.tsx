@@ -1,3 +1,4 @@
+import { Sidebar } from "@/components/dashboard/Sidebar";
 import { useState } from "react";
 import { Download, Search, Calendar, Filter } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -79,8 +80,10 @@ const Reports = () => {
   };
 
   return (
-    <div className="p-8 space-y-6 animate-fade-in">
-      <Card>
+    <div className="flex min-h-screen bg-background">
+      <Sidebar />
+      <div className="flex-1 p-8 ml-20 lg:ml-64">
+        <Card>
         <CardHeader>
           <CardTitle className="text-2xl font-bold">Scan Reports</CardTitle>
           <CardDescription>
@@ -186,7 +189,8 @@ const Reports = () => {
             </Pagination>
           </div>
         </CardContent>
-      </Card>
+        </Card>
+      </div>
     </div>
   );
 };
