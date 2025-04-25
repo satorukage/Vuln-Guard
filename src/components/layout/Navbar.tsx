@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -30,7 +31,7 @@ export const Navbar = () => {
             <Link to="#contact" className="text-gray-700 hover:text-primary transition-colors">
               Contact
             </Link>
-            <Link to="/dashboard">
+            <Link to="/auth">
               <Button>Get Started</Button>
             </Link>
           </div>
@@ -75,7 +76,7 @@ export const Navbar = () => {
             >
               Contact
             </Link>
-            <Link to="/dashboard" className="block px-3 py-2">
+            <Link to="/auth" className="block px-3 py-2">
               <Button className="w-full">Get Started</Button>
             </Link>
           </div>

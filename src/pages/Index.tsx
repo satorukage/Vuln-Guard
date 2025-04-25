@@ -1,3 +1,4 @@
+
 import { Shield, Zap, BarChart, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -47,7 +48,7 @@ const Index = () => {
             </p>
             <div className="flex justify-center gap-4 animate-fade-up">
               <Link to="/auth">
-                <Button size="lg">Start Free Trial</Button>
+                <Button size="lg">Get Started</Button>
               </Link>
               <Button variant="outline" size="lg">
                 Learn More
@@ -87,7 +88,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-8">
             Ready to Secure Your Network?
           </h2>
-          <Link to="/dashboard">
+          <Link to="/auth">
             <Button size="lg" className="animate-fade-up">
               Get Started Now
             </Button>
