@@ -22,7 +22,7 @@ export const Navbar = () => {
             <Link to="/" className="text-gray-700 hover:text-primary transition-colors">
               Home
             </Link>
-            <Link to="#features" className="text-gray-700 hover:text-primary transition-colors">
+            <Link to="/features" className="text-gray-700 hover:text-primary transition-colors">
               Features
             </Link>
             <Link to="#about" className="text-gray-700 hover:text-primary transition-colors">
@@ -59,7 +59,7 @@ export const Navbar = () => {
               Home
             </Link>
             <Link
-              to="#features"
+              to="/features"
               className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
             >
               Features
