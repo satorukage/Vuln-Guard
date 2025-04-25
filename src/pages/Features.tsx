@@ -6,7 +6,7 @@ import {
   CalendarClock,
   Wrench,
   FileText,
-  ShieldLock,
+  Shield,
   Bell,
   Smile,
   RefreshCw
@@ -49,7 +49,7 @@ const features = [
     description: "Choose between high-level summaries for executives or in-depth technical analysis."
   },
   {
-    icon: ShieldLock,
+    icon: Shield,
     title: "Secure User Management",
     description: "Role-based access control with comprehensive audit logging and encryption."
   },
