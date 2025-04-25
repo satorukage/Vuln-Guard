@@ -46,7 +46,7 @@ const Index = () => {
               tailored for SMEs.
             </p>
             <div className="flex justify-center gap-4 animate-fade-up">
-              <Link to="/dashboard">
+              <Link to="/auth">
                 <Button size="lg">Start Free Trial</Button>
               </Link>
               <Button variant="outline" size="lg">
