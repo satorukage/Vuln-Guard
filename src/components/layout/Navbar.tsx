@@ -28,7 +28,7 @@ export const Navbar = () => {
             <Link to="/features" className="text-gray-700 hover:text-primary transition-colors">
               Features
             </Link>
-            <Link to="#contact" className="text-gray-700 hover:text-primary transition-colors">
+            <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors">
               Contact
             </Link>
             <Link to="/auth">
@@ -71,7 +71,7 @@ export const Navbar = () => {
               Features
             </Link>
             <Link
-              to="#contact"
+              to="/contact"
               className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
             >
               Contact
