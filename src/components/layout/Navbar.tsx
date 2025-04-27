@@ -22,11 +22,11 @@ export const Navbar = () => {
             <Link to="/" className="text-gray-700 hover:text-primary transition-colors">
               Home
             </Link>
+            <Link to="/about" className="text-gray-700 hover:text-primary transition-colors">
+              About
+            </Link>
             <Link to="/features" className="text-gray-700 hover:text-primary transition-colors">
               Features
-            </Link>
-            <Link to="#about" className="text-gray-700 hover:text-primary transition-colors">
-              About Us
             </Link>
             <Link to="#contact" className="text-gray-700 hover:text-primary transition-colors">
               Contact
@@ -59,16 +59,16 @@ export const Navbar = () => {
               Home
             </Link>
             <Link
+              to="/about"
+              className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
+            >
+              About
+            </Link>
+            <Link
               to="/features"
               className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
             >
               Features
-            </Link>
-            <Link
-              to="#about"
-              className="block px-3 py-2 text-gray-700 hover:text-primary transition-colors"
-            >
-              About Us
             </Link>
             <Link
               to="#contact"
