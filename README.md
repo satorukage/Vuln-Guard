@@ -107,6 +107,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Website: [vulnguard.com](https://vulnguard.com)
 
 ## Acknowledgments
-
-- Thanks to all contributors who have helped shape VulnGuard
-- Special thanks to the open-source security community for their invaluable resources
+Sabry Aboud, Kareem Nyumba , Halima Msuya, Hannan Abdallah
