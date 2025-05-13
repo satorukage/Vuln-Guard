@@ -107,4 +107,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Website: [vulnguard.com](https://vulnguard.com)
 
 ## Acknowledgments
-Sabry Aboud, Kareem Nyumba , Halima Msuya, Hannan Abdallah
+Sabry Aboud
+Kareem Nyumba
+Halima Msuya
+Hannan Abdallah
